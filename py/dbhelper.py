@@ -1,11 +1,11 @@
 import MySQLdb
 
-dbpass = "pats2001"
-dbuser = "root"
+dbpass = ""
+dbuser = ""
 dbhost = "localhost"
-domainname = 'dev.oliveboard.in'
+domainname = ''
 
-domainpre = 'http://dev.oliveboard.in/request-form/'
+domainpre = ''
 
 def dbget(dbname='courserequests'):
     conn = MySQLdb.connect(dbhost, dbuser, dbpass, dbname)
